@@ -1,0 +1,210 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Busca Positiva",
+        "description": "",
+        "id": "busca;busca-positiva;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8781423630,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Acesso o site do Google no \"chrome\" e digite \"dia da toalha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 28
+                },
+                {
+                  "val": "dia da toalha",
+                  "offset": 46
+                }
+              ],
+              "location": "BuscaGoogle.acesso_o_site_do_Google_no_e_digite(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4561960247,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Pressiona Enter",
+            "match": {
+              "location": "BuscaGoogle.pressiona_Enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 685070944,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Exibe a pagina com o titulo \"dia da toalha - Pesquisa Google\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dia da toalha - Pesquisa Google",
+                  "offset": 29
+                }
+              ],
+              "location": "BuscaGoogle.exibe_a_pagina_com_o_titulo(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Busca Positiva",
+        "description": "",
+        "id": "busca;busca-positiva;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9544015197,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Acesso o site do Google no \"chrome\" e digite \"dia da toalha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 28
+                },
+                {
+                  "val": "dia da toalha",
+                  "offset": 46
+                }
+              ],
+              "location": "BuscaGoogle.acesso_o_site_do_Google_no_e_digite(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4604667404,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Pressiona Enter",
+            "match": {
+              "location": "BuscaGoogle.pressiona_Enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 655001414,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Exibe a pagina com o titulo \"dia da toalha - Pesquisa Google\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dia da toalha - Pesquisa Google",
+                  "offset": 29
+                }
+              ],
+              "location": "BuscaGoogle.exibe_a_pagina_com_o_titulo(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Busca Positiva",
+        "description": "",
+        "id": "busca;busca-positiva;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3318856842,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Acesso o site do Google no \"ie\" e digite \"dia da toalha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ie",
+                  "offset": 28
+                },
+                {
+                  "val": "dia da toalha",
+                  "offset": 42
+                }
+              ],
+              "location": "BuscaGoogle.acesso_o_site_do_Google_no_e_digite(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3253469495,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Pressiona Enter",
+            "match": {
+              "location": "BuscaGoogle.pressiona_Enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 550287827,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Exibe a pagina com o titulo \"dia da toalha - Pesquisa Google\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dia da toalha - Pesquisa Google",
+                  "offset": 29
+                }
+              ],
+              "location": "BuscaGoogle.exibe_a_pagina_com_o_titulo(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Busca",
+    "description": "",
+    "id": "busca",
+    "keyword": "Feature",
+    "uri": "BuscaGoogle.feature"
+  }
+]

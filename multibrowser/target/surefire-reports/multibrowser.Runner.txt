@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: multibrowser.Runner
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 38.032 s - in multibrowser.Runner
